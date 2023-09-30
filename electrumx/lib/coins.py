@@ -4222,13 +4222,12 @@ class Freco(Coin):
     NAME = "Freco"
     SHORTNAME = "FRECO"
     NET = "mainnet"
-    XPUB_VERBYTES = bytes.fromhex("4f23f9e2")
-    XPRV_VERBYTES = bytes.fromhex("4fa4534a")
+    # XPUB_VERBYTES = bytes.fromhex("4f23f9e2")
+    # XPRV_VERBYTES = bytes.fromhex("4fa4534a")
     P2PKH_VERBYTE = bytes.fromhex("24")
-    P2SH_VERBYTES = (bytes.fromhex("24"),)
+    # P2SH_VERBYTES = (bytes.fromhex("24"),)
     WIF_BYTE = bytes.fromhex("48")
-    GENESIS_HASH = ('000006938d77a4942841e97ac0c5abaa'
-                    'd276362057d88f74e29885713df7e313')
+    GENESIS_HASH = ('000002f6f6f4df5b8fee4c2b313ddfb65a3ac6e00c8eb5af812344ef9af15c61')
     DESERIALIZER = lib_tx.DeserializerSegWit
     TX_COUNT = 127583
     TX_COUNT_HEIGHT = 63498
